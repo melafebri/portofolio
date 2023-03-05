@@ -1,0 +1,90 @@
+* {
+    font-family: 'Bitter', serif;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+img {
+    border-radius: 40%;
+    align-content: middle;
+}
+
+.jumbotron {
+    height: 40%;
+    background-image: url('mela.JPG');
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.jumbotron h1 {
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.label {
+    background-color: rgb(179, 179, 179);
+    color: white;
+}
+
+.box {
+    color: rgb(126, 120, 120);
+}
+
+.box ::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box .col-4 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box .col-4 h4 {
+    margin: 20px 0;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* .jumbotron ::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100PX;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: burlywood 0,6;
+} */
+
+.about,
+.portofolio,
+.achievement {
+    padding-bottom: 100px;
+}
+
+.about p {
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
